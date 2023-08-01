@@ -6,7 +6,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'blit-openai-vectorfunction'
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: './azurefunction' # Assuming your function app is in the root directory
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # Assuming your function app is in the root directory
   PYTHON_VERSION: '3.9'
 
 jobs:
