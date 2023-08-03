@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.\azurefunction' # Set this to the path of your Azure Function App project (the azurefunction folder)
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: './azurefunction' # Set this to the path of your Azure Function App project (the azurefunction folder)
   PYTHON_VERSION: '3.10' # set this to the python version to use (supports 3.6, 3.7, 3.8)
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate
 
       - name: Install dependencies
-        run: pip install -r ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}\requirements.txt
+        run: pip install -r requirements.txt
 
       # Optional: Add step to run tests here
 
