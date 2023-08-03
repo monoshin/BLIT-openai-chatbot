@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'BLIT-openai-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C94D0A963AC4BA5A014D0B6DEFAD1A2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_63032E3257AF4CE293FD006AC5BD4C33 }}
